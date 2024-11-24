@@ -1,0 +1,62 @@
+
+.Name{
+    color: rgba(212, 141, 28, 0.836);
+    background-color:rgba(203, 160, 16, 0.062);
+    text-align: center;
+    font-style: oblique;
+    margin-top: 10px;
+}
+.prof {
+    background:wheat;
+    color: white;
+    text-align: center;
+    padding:1px;
+    height: 105px;
+    margin:-35px;
+    margin-bottom: 7px;
+    
+}
+.prof h6{
+    margin-top: -25px;
+    color: rgb(212, 129, 20);
+}
+.prof h1{
+    color: brown;
+    font-style: italic;
+}
+.Index{
+    background:wheat;
+    color: rgb(219, 60, 60);
+    text-align: center;
+    padding:1px;
+    height: 25px;
+    background-color: rgba(201, 129, 40, 0.884);
+    margin-bottom: 3PX;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.Index h5
+{
+    display: inline-flex;
+    font-size: large;
+    margin-right: 22px;   
+    color:black;  
+    margin-top: -20px;
+}
+
+:target{
+    background-color:rgba(248, 215, 93, 0.986);
+}
+section {
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 900px;
+    background:rgba(211, 133, 16, 0.635);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   
+}
+BODY{
+    background-color:cornsilk;
+}

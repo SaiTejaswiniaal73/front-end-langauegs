@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    div{
+        border: 5px solid greenyellow;
+        width: 125;
+        height: 125;
+    
+    }
+    .pr{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+       
+    }
+
+    #p1{
+        display: none;
+    }
+   
+    div:hover + #p1
+    {
+        display: block;
+        background-color: blueviolet;
+        height: 250px;
+        width: 200px;
+        color: azure;
+        }
+</style>
+</head>
+<body>
+<div>
+    <p class="pr">to view about loreum
+
+    </p>
+</div>
+<p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ipsum culpa suscipit deleniti dolores ea possimus reiciendis, a atque totam? Architecto quaerat eligendi consectetur qui labore quis a sint molestias.
+
+</p>
+
+</body>
+</html>

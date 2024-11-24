@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    
+    .div1{
+        border: 5px solid violet;
+        padding: 40px;
+        width: 30px;
+        background-color: black;
+    }
+    .o:hover ~.div1
+    {
+       background-color: orange;
+    }
+    .g:hover ~.div1
+    {
+       background-color: rgb(44, 184, 123);
+    }
+    .div2:hover+.div1
+    {
+       background-color:pink;
+    }
+    .r:hover ~.div1
+    {
+       background-color: rgb(189, 26, 26);
+    }
+    .y:hover ~.div1
+    {
+       background-color: yellow;
+    }
+    .a:hover+.div1
+    {
+       background-color: aqua;
+    }
+    h1:div1
+</style>
+<body>
+   
+    <h1 class="o">orange</h1>
+    <h1 class="g">green</h2>
+        <div class="div2">
+            <h1 class="b">bule</h1>
+            <h2 class="p">pink</h2>
+            </div> 
+    <h1 class="r">red</h1>
+    <h1 class="y">yellow</h1>
+    <h1 class="a">aqu</h1>
+
+    <div class="div1"></div>
+</body>
+</html>

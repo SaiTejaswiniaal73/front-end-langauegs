@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+     .nav h1 {
+        color: violet;
+        display:inline;
+         
+    }
+     .nav{
+        background-color: aqua;
+        padding:10px;
+        width: 650px;
+    }
+   
+    :target{
+        background-color: red;
+      }
+    .main
+    {
+        border:5px solid green ;
+        height: 400px;
+        overflow-y:scroll;
+        width: 550px;
+        /* background-color: rgba(128, 128, 128, 0.174); */
+        margin: 30px -0px -0px 40px;
+    }
+    ::-webkit-scrollbar {
+        display: none;
+      }
+      h1{
+        margin-right: 25px;
+    }
+    
+    
+   
+</style>
+<body>
+    <div class="nav">
+        <a href="#home"><h1>home</h1></a>
+        <a href="#cus"><h1>contuct us</h1></a>  
+        <a href="#ab"><h1>about us</h1></a>  
+        <a href="#log"><h1>login</h1></a>  
+        <a href="#ser"><h1>services</h1></a>                
+    </div>
+    <div class="main">
+        <section>
+            <h1  id="home">home</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem obcaecati molestias totam delectus quaerat fugit vel itaque iste quo? Voluptatibus dolores dolorum voluptates repellat facilis quae, fuga repellendus expedita nisi!</p>
+        </section>
+        <section>
+            <h1  id="cus">contact us</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur consectetur aperiam tempora dolore odio architecto quibusdam nam porro quod facilis excepturi saepe numquam incidunt rem, natus dolor magni veniam quae?</p>
+        </section>
+        <section  id="ab">
+            <h1>about us</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore cum aspernatur qui nobis rerum aliquid cumque optio! Praesentium a exercitationem fugiat sit blanditiis fugit provident quis voluptatibus, facere quos quibusdam.
+            </p>
+        </section>
+        <section  id="log">
+            <h1>login</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, nam. Libero vitae, saepe culpa iure asperiores eveniet earum tempore quos rem, impedit inventore eum a nihil minus distinctio numquam ducimus?
+            </p>
+        </section>
+        <section>
+            <h1 id="ser">services</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, adipisci. Dolor quia quam fugit quidem voluptate consectetur numquam nobis veritatis ex. Pariatur eius consequuntur aliquam ad deserunt. Sed, inventore iusto.
+            </p>
+        </section>
+    </div>
+</body>
+</html>

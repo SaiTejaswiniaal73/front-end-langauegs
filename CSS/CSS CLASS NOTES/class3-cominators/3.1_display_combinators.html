@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Combinator Property</title>
+  </head>
+  <style>
+
+      .div1 p
+      {
+          color: red;
+          font-size:40px;
+          font-weight:bold;
+          font-style: italic;
+
+      }
+
+      .div2>p{
+          color: violet;
+      }
+      .div3>P{
+          color:brown;
+      }
+      .div2 p
+      {
+          font-style: inherit;
+          font-size: 20px;
+      }
+    .div3 +p{
+          color:blue;
+          font: size 35px;px;
+          margin:0px;
+
+      }
+      .div4 ~p{
+          color:green;
+          font: size 35px;px;
+          margin:0px;
+
+      }
+      .html{
+        background-color: aqua;
+      }
+      .css{
+        background-color: greenyellow;
+      }
+      
+
+  </style>
+  <body>
+<div class="html">
+    <div class="div1">
+      <p>HTML</p>
+      <p></p>
+    </div>
+    <div>
+      <div class="div2">
+        <p>HYPER TEXT MARKUP LANGAUGE</p>
+        <p>this is front end</p>
+        <div class="div3">
+          <p>HTML is the standard markup language</p>
+        </div>
+        <p>This is the error free langauge</p>
+        <p>oho html</p>
+      </div>
+    </div>
+</div>
+<div class="css">
+    <div class="div1">
+      <p>CSS</p>
+    </div>
+    <div class="div2">
+      <p>Cascading Style Sheets</p>
+      <div class="div4">
+        <p>External stylesheets are stored in CSS</p>
+      </div>
+        <p>styles and colours</p>
+        <p>oho html</p>
+    </div>
+</div>
+   
+  </body>
+</html>
+
